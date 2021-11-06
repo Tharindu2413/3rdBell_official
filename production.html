@@ -54,7 +54,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#header">Navigation </a>
+          
           </div><!-- /.navbar-header -->
 
           <div class="collapse navbar-collapse" id="menu">
@@ -129,17 +129,15 @@
           var dataHeader = [
             {
               bigImage: "images/pexels-bruno-massao-3418613.jpg",
-              title : "Welcome to Third Bell Casting",
-         
+              title : "Welcome to Third Bell Productions",
             },
             {
               bigImage: "images/pexels-dmitry-demidov-3921045.jpg",
-              title: "I'm A Creative Theme",
-              title : "Movie Casting",
+              title : "Welcome to Third Bell Productions",
             },
             {
               bigImage: "images/pexels-ron-lach-9807290.jpg",
-              title : "Cinema",
+              title : "Welcome to Third Bell Productions",
             }
           ],
             loaderSVG = new SVGLoader(document.getElementById('loader'), { speedIn: 600, speedOut: 600, easingIn: mina.easeinout });
@@ -149,59 +147,55 @@
       </div><!-- /.header-slide -->
     </section>
 
-    <!-- HEADER END -->
-
-
-    <!-- ABOUT -->
-
-    <section id="about" class="light">
-      <header class="title">
-        <h2>About <span>Us</span></h2>
-        <p>Lorem ipsum Esse esse cillum nisi cillum deserunt tempor ut pariatur qui officia. Lorem ipsum Magna eu irure
-          sint <strong>occaecat</strong> cupidatat dolore minim irure cillum.</p>
-      </header>
-
+    <section class="section" id="our-classes">
       <div class="container">
-        <div class="row table-row">
-          <div class="col-sm-6 hidden-xs">
-            <div class="section-content">
-              <div class="big-image" style="background-image:url(images/1.png)"></div>
+          <br>
+          <br>
+          <br>
+          <div class="row" id="tabs"> 
+            <div class="col-lg-4">
+              <ul>
+                <li><a href='#tabs-1'><i class="fa fa-file-movie-o"></i> Cinema</a></li>
+                <li><a href='#tabs-2'><i class="fa fa-video-camera"></i> Movie</a></a></li>
+                <li><a href='#tabs-3'><i class="fa fa-users"></i> Acting</a></a></li>
+              </ul>
             </div>
-          </div>
+            <div class="col-lg-8" id="para">
+              <section class='tabs-content'>
+                <article id='tabs-1'>
+                  <img src="images/pexels-dmitry-demidov-3921045.jpg" alt="">
+                  <h4>Cinema</h4>
 
-          <div class="col-sm-6">
-            <div class="section-content">
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-film"></i></div>
-                <div class="about-detail">
-                  <h4>Cinema</h4>           
-                  <p>Lorem ipsum Ad nisi dolore ut sit do dolor commodo sint ullamco. Lorem ipsum Magna enim eu irure
-                    sit eiusmod fugiat et. Lorem ipsum Consequat in cupidatat cupidatat non in non veniam dolore.</p>
-                </div>
-              </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aspernatur natus dignissimos eos quod, odio.</p>
 
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-users"></i></div>
-                <div class="about-detail">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate ullam exercitationem molestiae illum? Nam magni, saepe sint maiores vitae!</p>
+
+                  <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi suscipit commodi impedit unde accusantium nam incidunt tenetur, libero maiores enim! Nisi ex odit, totam nihil doloribus. Nemo ut, eos consequatur libero aut quas dolorum ipsa, quidem, totam dicta id possimus dolores distinctio laboriosam doloribus voluptates tenetur consectetur inventore aliquid dolorem?</p>
+                </article>
+                <article id='tabs-2'>
+                  <img src="images/pexels-freestocksorg-133070.jpg" alt="">
+                  <h4>Movie</h4>
+                  <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut accusantium cum! Ad quisquam, aut praesentium magni pariatur ipsa! Soluta deserunt accusantium repellendus ratione quam hic facere, cupiditate iste obcaecati a, officiis ipsum aspernatur in?</p>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla a necessitatibus eos vitae quibusdam quo sunt officiis rerum voluptatibus non natus eius placeat officia vel quaerat, reprehenderit obcaecati, eaque? Repudiandae ad facere culpa accusamus aliquam ab assumenda reiciendis corrupti cum nemo, cumque molestiae corporis deserunt!</p>
+                </article>
+                <article id='tabs-3'>
+                  <img src="images/pexels-kyle-loftus-2510428.jpg" alt="">
                   <h4>Acting</h4>
-                  <p>Lorem ipsum Ex labore dolor magna in proident ad reprehenderit consequat irure nostrud quis. Lorem
-                    ipsum Veniam velit non cupidatat nulla et proident.</p>
-                </div>
-              </div>
+                  <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
 
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-video-camera"></i></div>
-                <div class="about-detail">
-                  <h4>Movies</h4>
-                  <p>Lorem ipsum Ea quis sint sint aliquip qui exercitation commodo non cupidatat do reprehenderit
-                    dolor. Lorem ipsum Non et minim incididunt sed labore in amet ea est pariatur.</p>
-                </div>
-              </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aut beatae commodi repudiandae distinctio, magnam blanditiis reiciendis vitae velit voluptatum natus, fugit quis eos dolores!</p>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic adipisci reiciendis quaerat qui earum aut, atque esse quisquam quis exercitationem sapiente, dolorum consequatur consequuntur voluptatibus ipsam, fuga magnam beatae optio nam. Recusandae ut aliquid, eligendi.</p>
+                </article>
+              </section>
             </div>
           </div>
-        </div> <!-- /.row table-row -->
-      </div> <!-- /.container -->
-    </section>
+      </div>
+  </section>
 
 
     <!-- PORTFOLIO -->
@@ -428,60 +422,6 @@
       </div> <!-- /.container -->
     </section>
 
-    <!-- 
-    <section class="separator blue">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-6">
-            <div class="counter animated" data-animate="fadeInUp" data-delay="0">
-              <div class="counter-icon">
-                <i class="fa fa-group"></i>
-              </div>
-              <div class="counter-content">
-                <span class="value" data-from="0" data-to="43"></span>
-                <small>Clients</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6">
-            <div class="counter animated" data-animate="fadeInUp" data-delay="500">
-              <div class="counter-icon">
-                <i class="fa fa-leaf"></i>
-              </div>
-              <div class="counter-content">
-                <span class="value" data-from="0" data-to="20"></span>
-                <small>Awards</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6">
-            <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
-              <div class="counter-icon">
-                <i class="fa fa-gears"></i>
-              </div>
-              <div class="counter-content">
-                <span class="value" data-from="0" data-to="34"></span>
-                <small>Projects</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6">
-            <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
-              <div class="counter-icon">
-                <i class="fa fa-inbox"></i>
-              </div>
-              <div class="counter-content">
-                <span class="value" data-from="0" data-to="1298"></span>
-                <small>Mail</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <section class="separator blue">
       <div class="container">
@@ -543,28 +483,29 @@
   
         <div class="footer-left">
           <img src="images/logo.png">
-          <h3>Cinema<span></span></h3>
+
   
           <p class="footer-links">
-            <a href="#">Test 1</a>
+            
+            <a href="#">. Home</a>
             ·
-            <a href="#">Test 2</a>
+            <a href="#">Presents</a>
             ·
-            <a href="#">Test 3</a>
+            <a href="#">Casting</a>
             ·
-            <a href="#">Test 4</a>
-            ·
+            <a href="#">Production</a>
+        
   
           </p>
   
-          <p class="footer-company-name">Cinema Company</p>
+          <p class="footer-company-name">Production Company</p>
         </div>
   
         <div class="footer-center">
   
           <div>
             <i class="fa fa-map-marker"></i>
-            <p><span>No.366 , Main Street</span> Colomba, Sri Lanka</p>
+            <p>No.366 , Main Street Colomba, Sri Lanka</p>
           </div>
   
           <div>
@@ -582,9 +523,8 @@
         <div class="footer-right">
   
           <p class="footer-company-about">
-            <span>About </span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a suscipit diam, id fermentum enim. Proin vulputate, quam ut laoreet varius, elit nisi fermentum purus, id commodo ipsum dui ac mi. Cras dignissim dignissim velit.
-   
+            <span>Follow Us For More </span>
+            
           </p>
   
           <div class="footer-icons">
@@ -613,13 +553,15 @@
         </div>
       </section>
   
-  
-  
-  
-    </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.container-fluid -->
   
     <!-- SCRIPT -->
     <script type="text/javascript" src="js/main.js"></script>
+    
+    <script src="js/accordions.js"></script>
+      
+    <script src="js/custom.js"></script>
   </body>
   
   </html>
